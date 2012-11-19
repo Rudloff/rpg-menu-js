@@ -15,11 +15,15 @@
 }
 
 .RPGmenu ul {
-    list-style-type:none;
     font-size:larger;
     line-height:22px;
     padding-left:1.5em;
     padding-right:3em;
+}
+
+.RPGmenu ul,
+.RPGmenu li {
+    list-style-type:none !important;
 }
 
 body {
@@ -33,4 +37,9 @@ body {
     left:5%;
     top:5%;
     padding:2em;
+}
+
+.RPGcontent *{
+    background:none !important;
+    color:white !important;
 }
