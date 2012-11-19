@@ -1,0 +1,36 @@
+.selected {
+    font-weight:bold;
+    list-style-image:url(hand.svg); /*CC BY-SA Mushii (https://commons.wikimedia.org/wiki/File:Mano_cursor.svg)*/
+}
+
+.RPGcontent,
+.RPGmenu {
+    border:3px ridge white;
+    background-color:#000060;
+    background-image:linear-gradient(to bottom, #3838D0, #000060);
+    display:inline-block;
+    border-radius:5px;
+    color:white;
+    font-family:monospace;
+}
+
+.RPGmenu ul {
+    list-style-type:none;
+    font-size:larger;
+    line-height:22px;
+    padding-left:1.5em;
+    padding-right:3em;
+}
+
+body {
+    background-color:black;
+}
+
+.RPGcontent {
+    width:80%;
+    position:absolute;
+    height:80%;
+    left:5%;
+    top:5%;
+    padding:2em;
+}
